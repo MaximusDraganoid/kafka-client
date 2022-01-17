@@ -48,4 +48,14 @@ public class MessageDto {
     public void setCurrency(String currency) {
         this.currency = currency;
     }
+
+    @Override
+    public String toString() {
+        return "MessageDto{" +
+                "messageId=" + messageId +
+                ", startDate='" + startDate + '\'' +
+                ", endDate='" + endDate + '\'' +
+                ", currency='" + currency + '\'' +
+                '}';
+    }
 }
